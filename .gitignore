@@ -28,3 +28,5 @@ capturas/
 # --- OS ---
 Thumbs.db
 .DS_Store
+# Excluir modelos pesados
+src/models/
