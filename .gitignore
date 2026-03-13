@@ -1,0 +1,30 @@
+# --- Python ---
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Editores y Entornos (WebStorm/VSCode) ---
+.idea/
+.vscode/
+*.swp
+*.bak
+
+# --- Datos del Proyecto (Evitar subir gigas de imágenes o DB locales) ---
+capturas/
+*.db
+*.sqlite3
+*.json
+*.log
+
+# --- Seguridad (Variables de entorno) ---
+.env
+
+# --- OS ---
+Thumbs.db
+.DS_Store
